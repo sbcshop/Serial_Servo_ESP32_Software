@@ -63,12 +63,12 @@ For more details about Serial Servo Motor checkout [Manual](https://github.com/s
 
  - _Serial Servo Bus Pins:_
    * Servo connector having +ve[6~8.4VDC], -ve[GND] and Signal pin. 
-   * Serial Servo Signal pins breakout into UART RXD and TXD to connect with RPi UART pins,
+   * Serial Servo Signal pins breakout into UART RXD and TXD to connect with ESP32 UART pins,
      
-     | Symbol | Description | 
-     |---|---|
-     | Servo Bus RXD | UART communication pin |
-     | Servo Bus TXD | UART communication pin |
+     | ESP32 | Servo | Description | 
+     |---|---|---|
+     | TXD0/GPIO43 | Servo Bus RXD | UART communication pin |
+     | RXD0/GPIO44 | Servo Bus TXD | UART communication pin |
   
 - _Display interfacing with ESP32_
     | ESP32 | Display | Function |
