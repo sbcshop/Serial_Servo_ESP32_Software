@@ -10,7 +10,7 @@ SBServo sb; //create instance
 #define S_RXD 18
 #define S_TXD 17
 
-const int ID = 0x02; // Change Motor as per your Serial Servo Motor 
+const int ID = 0x02; // Change Motor ID as per your Serial Servo Motor 
 
 void setup()
 {
